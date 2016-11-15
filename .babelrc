@@ -1,7 +1,8 @@
 {
     "presets": [
         "es2015",
-        "react"
+        "react",
+        "stage-1"
     ],
     // "env": {
     //     "start": {
@@ -11,5 +12,6 @@
     //     }
     // },
     "plugins": [
+        "transform-decorators-legacy", "transform-class-properties"
     ]
 }

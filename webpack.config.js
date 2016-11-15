@@ -31,8 +31,8 @@ let config = {
 };
 
 const developmentConfig = {
-    // devtool: 'eval-source-map',
-    devtool: 'cheap-module-source-map',
+    devtool: 'eval-source-map',
+    // devtool: 'cheap-module-source-map',
     devServer: {
         contentBase: PATHS.public,
         historyApiFallback: true,
@@ -60,7 +60,7 @@ if (TARGET === 'start' || TARGET === 'dev') {
     config = merge.smart(config, developmentConfig);
 }
 else if (TARGET === 'production') {
-
+    config = merge.smart(config, productionConfig);
 }
 
 module.exports = config;
