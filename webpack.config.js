@@ -14,7 +14,7 @@ let config = {
     entry: PATHS.client,
     output: {
         path: PATHS.public,
-        filename: "boundle.js"
+        filename: "bundle.js"
     },
     resolve: {
         extensions: ['', '.js', '.jsx']

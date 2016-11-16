@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
+    "firebase": "^3.6.1",
     "mobx": "^2.6.2",
     "mobx-react": "^3.5.9",
-    "mobx-react-devtools": "^4.2.9"
+    "mobx-react-devtools": "^4.2.9",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
